@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WinForms/1.0.0": {
+        "dependencies": {
+          "LowLevelKeyboardHookLibrary": "1.0.0"
+        },
+        "runtime": {
+          "WinForms.dll": {}
+        }
+      },
+      "LowLevelKeyboardHookLibrary/1.0.0": {
+        "runtime": {
+          "LowLevelKeyboardHookLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinForms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LowLevelKeyboardHookLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

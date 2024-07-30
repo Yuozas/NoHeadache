@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "WinForms\WinForms.csproj", "{89B2AB64-504A-4B23-998E-1B414F176D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowLevelKeyboardHookLibrary", "LowLevelKeyboardHookLibrary\LowLevelKeyboardHookLibrary.csproj", "{98898CD1-4C13-4DC4-9ACF-F98B60885F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89B2AB64-504A-4B23-998E-1B414F176D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B2AB64-504A-4B23-998E-1B414F176D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B2AB64-504A-4B23-998E-1B414F176D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B2AB64-504A-4B23-998E-1B414F176D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98898CD1-4C13-4DC4-9ACF-F98B60885F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98898CD1-4C13-4DC4-9ACF-F98B60885F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98898CD1-4C13-4DC4-9ACF-F98B60885F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98898CD1-4C13-4DC4-9ACF-F98B60885F94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
