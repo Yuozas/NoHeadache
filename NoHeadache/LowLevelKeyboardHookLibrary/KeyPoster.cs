@@ -22,6 +22,14 @@ public static partial class KeyPoster
 		ReleaseKey(Keys.ShiftKey);
 	}
 	
+	public static void ReleaseShiftPressKey(Keys key, params Keys[] shiftKeys)
+	{
+		if(shiftKeys is {Length: > 0})
+			foreach(var shiftKey in shiftKeys)
+				ReleaseKey(shiftKey);
+		PressKey(key);
+	}
+	
 	private static void PressReleaseKey(Keys key)
 	{
 		PressKey(key);
