@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices;
-
-namespace LowLevelKeyboardHookLibrary;
+﻿namespace LowLevelKeyboardHookLibrary;
 
 public static partial class LowLevelKeyboardHookHandler
 {
