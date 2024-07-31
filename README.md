@@ -30,7 +30,7 @@ No additional installation or building of the solution is required.
 
 ## Usage
 
-1. Launch `NoHeadache.exe`.
+1. Launch `.exe`.
 2. The application will run in the background, listening for D0-D9 key presses.
 3. Type normally, and the app will automatically convert number keys to their shifted versions.
 
@@ -49,6 +49,7 @@ No additional installation or building of the solution is required.
 
 - Language selection dropdown to specify which languages the app should work with
 - Enable/disable checkbox for quick toggling of the app's functionality
+- Configuring which keys should be affected allows for custom shift behavior. This feature is handy for users programming on keyboards with UK language layouts and similar configurations.
 - Single executable file for easier distribution
 - Both portable and installer editions
 
