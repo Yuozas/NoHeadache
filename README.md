@@ -16,7 +16,10 @@ Affected Keys:
   - Pressing `2` results in `@`
   - And so on...
 
-- **Default Behavior with Shift**: If the Shift key is pressed, the number keys (D0-D9) function as usual, allowing for normal input without conversion.
+- **Default Behavior with Shift**: If the Shift key is pressed, the number keys (D0-D9) function as usual, allowing for normal input without conversion. For example:
+  - Pressing `1` + `shift` results in `1`
+  - Pressing `2` + `shift` results in `2`
+  - And so on...
 
 - **Language-Sensitive Operation**: Currently, the app only operates with the US keyboard layout. If another language layout is detected, the app remains inactive, ensuring it doesn’t interfere with your typing.
 
