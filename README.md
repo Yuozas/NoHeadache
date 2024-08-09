@@ -32,10 +32,14 @@ Affected Keys:
 No additional installation or building of the solution is required.
 
 ## Usage
-
 1. Launch `.exe`.
 2. The application will run in the background, listening for D0-D9 key presses.
 3. Type normally, and the app will automatically convert number keys to their shifted versions.
+
+**Optional: Elevated Privileges**
+- To enable functionality with applications running with administrative rights, grant the `.exe` file admin privileges as well.
+
+![image](https://github.com/user-attachments/assets/d46539da-2d7e-4347-a1aa-fbe12f88a916)
 
 ## Technical Details
 
@@ -43,10 +47,6 @@ No additional installation or building of the solution is required.
 - **Framework**: .NET 8
 - **Dependencies**: Utilizes `user32.dll` and `kernel32.dll` from the Windows API
 - **User Interface**: WinForms
-
-## Known Issues
-
-- Some Windows 11 applications (e.g., the new Notepad) may not detect language changes correctly, causing unexpected behavior.
 
 ## Planned Features
 
